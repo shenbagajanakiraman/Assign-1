@@ -1,0 +1,184 @@
+
+.list ul li
+{
+	display: inline;
+}
+
+.hdr
+{
+	position: fixed;
+	background-color: #333;
+}
+
+blockquote p
+{
+	text-align: center;
+}
+
+
+.foot
+{
+	background-color: #333;
+}
+
+.main
+{
+	padding-top: 80px;
+}
+
+.main p
+{
+	font-family: 'Lobster', cursive;
+	margin: 1px;
+
+}
+
+
+.wrap
+{
+	background-color: #efefef;	
+}
+
+
+/* Travel buddy logo design */
+.headin a
+{
+	font-size: 52px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	text-shadow:
+		5px -1px 0 black,
+		6px -2px 0 grey;
+				
+}
+
+
+
+.hdr .list
+{
+	margin-top: 27px;
+	text-align: right;
+	
+}
+.list a,
+.foot a
+{
+	font-size: 21px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-style: italic;
+	color: white;
+
+}
+
+.list a:hover,
+.foot a:hover,
+.about a:hover
+{
+	font-size:23px;
+	color: black;
+	background-color: #ddd;
+	text-decoration: none;
+}
+
+
+.list li:after
+{
+	font-size: 21px;
+	content: '\\';
+	padding: 0 5px;
+	color: white;
+
+}
+
+.list li:last-child:after
+{
+	content: none;
+}
+
+
+.herounit p
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 15px;
+}
+
+.about p,
+.para
+{
+	text-align: justify;
+}
+
+.para
+{
+	text-indent: 140px;
+}
+
+.herounit img
+{
+ display: block;
+ margin:0px auto 10px;
+
+}
+
+.main p,
+.about a
+{
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+.secleft p
+{
+	text-indent: 140px;
+}
+
+.foot
+{
+	height: 130px;
+	text-align: center;
+}
+
+.about a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.about ul 
+{
+	list-style-type: circle;
+}
+
+.secleft li
+{
+	color: black;
+}
+
+.secright img
+{
+	width: 450px;
+	height: 169px;
+}
+
+.secright p a
+{
+	font-size: 28px;
+	color: #040263;
+	text-decoration: none;	
+}
+.secright a:hover
+{
+	font-size: 33px;
+	color: black;
+}
+
+.secright p
+{
+	text-align: center;
+}
